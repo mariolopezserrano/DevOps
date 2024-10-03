@@ -6,4 +6,8 @@ DevOps repository for training.
 - Kubernetes
     - Namespaces
     - RBAC
+    - Service Accounts
+    - Storage
+        - Volumes
+        - Persistent Volumes
 - Terraform
