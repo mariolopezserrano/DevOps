@@ -5,7 +5,7 @@ Para manejar el control de acceso de los service accounts se usan objetos de tip
 
 Los objetos RoleBinding y ClusterRoleBinding pueden ser usados para enlazar permisos a service accounts al igual que a usuarios o grupos de usuarios.
 
-```
+```yaml
 # Ejemplo de RoleBinding para Service Account
 
 apiVersion: rbac.authorization.k8s.io/v1

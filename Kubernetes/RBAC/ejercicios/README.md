@@ -1,6 +1,6 @@
 1. Crear un rol llamado **pod-reader** que permita leer los logs de pods y containers del namespace **beebox-mobile**
 
-```
+```yaml
 # pod-reader-role.yaml
 
 apiVersion: rbac.authorization.k8s.io/v1
@@ -16,7 +16,7 @@ rules:
 
 2. Crear un RoleBinding para dar al usuario dev los permisos correspondientes.
 
-```
+```yaml
 # pod-reader-role-binding.yaml
 
 apiVersion: rbac.authorization.k8s.io/v1

@@ -5,7 +5,7 @@ Los volumes pueden ser configurados de forma relativamente sencilla dentro de la
 
 - **volumeMounts**: En la especificación de los contenedores se debe referenciar el volumen especificado en la configuración del Pod y proveer un *mountPath* (localización del sistema de ficheros desde donde el contenedor puede acceder a los datos).
 
-```
+```yaml
 #  Example of pod especification
 
 apiVersion: v1

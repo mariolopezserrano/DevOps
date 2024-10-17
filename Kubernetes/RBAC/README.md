@@ -8,7 +8,7 @@ El control de acceso basado en roles (RBAC) en k8s permite controlar que usuario
 
 Los objetos **RoleBinding** y **ClusterRoleBinding** son objetos que conectas Roles y ClusterRoles con los usuarios o identidades.
 
-```
+```yaml
 # Ejemplo de Role
 
 apiVersion: rbac.authorization.k8s.io/v1
