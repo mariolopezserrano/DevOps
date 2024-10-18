@@ -44,7 +44,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   resources:
-    request:
+    requests:
       storage: 100Mi
 ```
 Cuando un PVC es creado se busca un PV que cumpla con los criterios y automáticamente se enlazan.

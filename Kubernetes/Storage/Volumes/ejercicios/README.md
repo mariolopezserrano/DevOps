@@ -13,7 +13,7 @@ spec:
     volumeMounts:
     - name: data
       mountPath: /output
-    command: ["/bin/bash"]
+    command: ["/bin/sh"]
     args: ["-c", "cd output; while true; do echo hola >> data.txt; sleep 5; done;"]
   volumes:
   - name: data
