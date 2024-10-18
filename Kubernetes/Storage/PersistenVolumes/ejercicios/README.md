@@ -48,6 +48,7 @@ spec:
 
 3. Crea un Pod que use ese PV como volumen.
 
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -66,3 +67,4 @@ spec:
   - name: data
     persistentVolumeClaim:
       claimName: my-pvc
+```
