@@ -9,7 +9,7 @@ DevOps repository for training.
         - Application Configuration
         - Container Resources
         - Container Health
-        - Self Healing
+        - Restart Policies
         - Init Containers
     - RBAC
     - Service Accounts
